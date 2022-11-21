@@ -5,9 +5,7 @@ title: Computing 2022
 description: ES 112
 ---
 
-# ES 102 - Introduction to Computing (2022 Winter)
-
-### Welcome to Introduction to Computing!
+# ES 112 - Introduction to Computing (2022 Winter)
 
 This is a first course in computing, and the goal of the course is to introduce you to fundamental principles of computational thinking. The immersive edition of the course will run over a period of four weeks. 
 
