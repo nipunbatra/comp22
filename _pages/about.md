@@ -5,7 +5,7 @@ title: Computing 2022
 description: ES 112
 ---
 
-# ES 112 - Introduction to Computing (2022 Winter)
+### ES 112 - Introduction to Computing (2022 Winter)
 
 This is a first course in computing, and the goal of the course is to introduce you to fundamental principles of computational thinking. The immersive edition of the course will run over a period of four weeks. 
 
@@ -22,26 +22,29 @@ The course will be delivered via Slack. As a registered student of the course, y
 ### Timings
 
 - Lectures (all in Jasubhai Auditorium)
-    - Monday: 10:30 AM to 12:30 PM — Nipun Batra
-    - Tuesday: 10:30 AM to 12 PM — Nipun Batra
-    - Wednesday: 10:30 AM to 12:30 PM — Balagopal Komarath
-    - Thursday: 10:30 AM to 12 PM — Balagopal Komarath
+    - Monday: 11 AM to 1 PM — Nipun Batra
+    - Tuesday: 11 AM to 12:30 PM — Nipun Batra
+    - Wednesday: 11 AM to 1 PM — Balagopal Komarath
+    - Thursday: 11 AM to 12:30 PM — Balagopal Komarath
+- Lab
+    - Section 1
+        - Monday 2 to 4 PM in 7/108
+        - Wednesday 2 to 4 PM in 7/108
+    - Section 2
+        - Monday 4 to 6 PM in 7/108
+        - Wednesday 4 to 6 PM in 7/108
+    - Section 3
+        - Monday 2 to 4 PM in 7/109
+        - Wednesday 2 to 4 PM in 7/109
+    - Section 4
+        - Monday 4 to 6 PM in 7/109
+        - Wednesday 4 to 6 PM in 7/109
+    - Section 5
+        - Tuesday 2 to 4 PM in 7/108
+        - Thursday 2 to 4 PM in 7/108
 
-
-
-<details>
-<summary>Click to toggle contents of `code`</summary>
-
-```
-CODE!
-```
-</details>
-
-<details>
-<summary>Click to toggle contents of `code`</summary>
-
-```python
-import time
-print(time.time())
-```
-</details>
+### Grading Policy
+- Worksheet: Best 6 out of 8: 6 worksheets x 8 marks = 48% -- Every week we will have two worksheets on Monday and Wednesday
+- Programming Assignments = 4 assignments X 6 marks = 24% -- Every week we will have one programming assignment
+- 1 mid-semester exam = 12% -- Tentatively around 8 December 2022
+- 1 end-semester exam = 16% -- Tentatively around 23 December 2022
