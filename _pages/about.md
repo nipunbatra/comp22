@@ -19,6 +19,9 @@ Balagopal Komarath <[bkomarath@iitgn.ac.in](mailto:bkomarath@iitgn.ac.in)>
 
 The course will be delivered via Slack. As a registered student of the course, you will be added to Slack automatically. If not, please add yourself to Slack by clicking [here](https://join.slack.com/t/slack-v4e4710/shared_invite/zt-1jcu38grm-TxYbLQj0AYiVB0CVLQrrHg).
 
+### Replit
+
+
 ### Timings
 
 - Lectures (all in Jasubhai Auditorium)
