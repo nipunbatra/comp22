@@ -50,7 +50,7 @@ The course will be delivered via Slack. As a registered student of the course, y
 
 ### Grading Policy
 
-- Worksheet: Best 6 out of 8: 6 worksheets x 8 marks = 48% -- Every week we will have two worksheets.
+- Worksheet: Best 6 out of 8: 6 worksheets x 8 marks = 48% -- Every week we will have about two worksheets.
 - Programming Assignments = 4 assignments X 6 marks = 24% -- Every week we will have one programming assignment. There will be no extensions!
   - Assignment 1 will be released on 28 Nov and due on 5 Dec 5 PM
   - Assignment 2 will be released on 5 Dec and due on 10 Dec 5 PM
