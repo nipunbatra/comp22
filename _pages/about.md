@@ -70,4 +70,4 @@ The course will be delivered via Slack. As a registered student of the course, y
 - Lists
 - Dictionaries
 - Tuples
-- Object Oriented
+- Object Oriented Programming
