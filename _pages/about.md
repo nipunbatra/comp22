@@ -58,3 +58,16 @@ The course will be delivered via Slack. As a registered student of the course, y
   - Assignment 4 will be released on 14 Dec and due on 19 Dec 5 PM
 - 1 mid-semester exam = 12% -- On 8 December 2022
 - 1 end-semester exam = 16% -- On 23 December 2022
+
+
+### Core Syllabus
+
+- Variables, Expressions
+- Conditionals
+- Loops and Iterations
+- Functions
+- Strings
+- Lists
+- Dictionaries
+- Tuples
+- Object Oriented
