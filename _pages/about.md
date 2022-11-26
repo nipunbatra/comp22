@@ -48,6 +48,10 @@ The course will be delivered via Slack. As a registered student of the course, y
 
 - Nipun Batra (Mon, Tue, Thu, Fri: 3-330 PM in AB6/407D: walkin without any appointment )
 
+### Sections
+
+Please see the [following spreadsheet ](https://docs.google.com/spreadsheets/d/1hYW8WhSTYLtZ9jKeodD1Vq7Of9HQ-BLTxNH5zMTWt3Q/edit?usp=sharing)(requires IITGn sign in).
+
 ### Grading Policy
 
 - Worksheet: Best 6 out of 8: 6 worksheets x 8 marks = 48% -- Every week we will have about two worksheets.
@@ -61,6 +65,8 @@ The course will be delivered via Slack. As a registered student of the course, y
 
 
 ### Core Syllabus
+
+The topics covered would depend on the class pace among other things.
 
 - Variables, Expressions
 - Conditionals
