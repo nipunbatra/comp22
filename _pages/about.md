@@ -56,10 +56,10 @@ Please see the [following spreadsheet ](https://docs.google.com/spreadsheets/d/1
 
 - Worksheet: Best 6 out of 8: 6 worksheets x 8 marks = 48% -- Every week we will have about two worksheets.
 - Programming Assignments = 4 assignments X 6 marks = 24% -- Every week we will have one programming assignment. There will be no extensions!
-  - Assignment 1 will be released on 28 Nov and due on 5 Dec 5 PM
-  - Assignment 2 will be released on 5 Dec and due on 10 Dec 5 PM
-  - Assignment 3 will be released on 10 Dec and due on 14 Dec 5 PM
-  - Assignment 4 will be released on 14 Dec and due on 19 Dec 5 PM
+  - Assignment 1 will be released on 28 Nov and due on 5 Dec 10 PM
+  - Assignment 2 will be released on 5 Dec and due on 10 Dec 10 PM
+  - Assignment 3 will be released on 10 Dec and due on 14 Dec 10 PM
+  - Assignment 4 will be released on 14 Dec and due on 19 Dec 10 PM
 - 1 mid-semester exam = 12% -- On 8 December 2022
 - 1 end-semester exam = 16% -- On 23 December 2022
 
