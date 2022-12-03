@@ -16,3 +16,4 @@ description: "Education is what remains after one has forgotten what one has lea
 - 30 Nov. Evening. [Conditionals-2 Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/floating-point-conditionals.ipynb), [Recording ](https://drive.google.com/drive/folders/1DlkJTnICTwKHYos7ruHtfJZ0KMgjt27d?usp=sharing)
 - 1 Dec. While Loop. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/while-loop.ipynb), [Recording](https://drive.google.com/drive/folders/1_8kT_HeLVEWwQVCYFgCrgT7kAMsnvI6i?usp=sharing)
 - 2 Dec. While loop continued, Primality. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/while-prime-break-continue-nested.ipynb), [Recording](https://drive.google.com/drive/folders/1V-v2XlDzTgJrqNDeRW2rXqrjaincwz81?usp=sharing)
+- 3 Dec.  Nested while, Lists. Code (Notebook),
