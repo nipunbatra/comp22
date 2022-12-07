@@ -19,3 +19,5 @@ description: "Education is what remains after one has forgotten what one has lea
 - 3 Dec.  Nested while, Lists. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/lists.ipynb), [Recording](https://drive.google.com/drive/folders/11BFUvieJ3UzWfXy7UjkgZwi3xewewDGg?usp=sharing)
 - 6 Dec. Morning. Lists (continued). [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/lists.ipynb), [Recording](https://drive.google.com/drive/folders/1b4hCnxRdm_CtyuzjlpYtWELTxhSIWwPV?usp=sharing)
 - 6 Dec. Evening. Slicing ([Notebook](https://github.com/nipunbatra/comp22/blob/master/notebooks/slicing.ipynb)), For Loop ([Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/for-loop.ipynb), [Recording](https://drive.google.com/drive/folders/1svg-xsaoLX9g3W7dGANX5FrKKBNawWds?usp=sharing)
+- 7 Dec. Morning. Python memory. Code (Notebook), Recording
+- 7 Dec. Evening. String. Code (Notebook), Recording
