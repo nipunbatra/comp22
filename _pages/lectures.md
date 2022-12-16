@@ -8,6 +8,9 @@ description: "Education is what remains after one has forgotten what one has lea
 
 [Folder containing notebooks](https://github.com/nipunbatra/comp22/tree/master/notebooks)
 
+
+### Lecture notes
+
 - 24 Nov. Introduction. [Slides](../lectures/24Nov-Introduction.pdf), [Recording](https://drive.google.com/file/d/1w-dbASsRtPPOILpabSrS2siYFQqZgFSN/view?usp=share_link), [Code](https://github.com/nipunbatra/comp22/tree/master/notebooks/Introduction)
 - 25 Nov. Showcasing how to use all course components to create a spreadsheet-like program. [Recording](https://drive.google.com/file/d/1TA05Ykz7dT6lhVTTj6f1sBlZwQ5K5uKe/view?usp=share_link), [Code - Notebook](https://github.com/nipunbatra/comp22/blob/master/notebooks/spreadsheet.ipynb), [REPLit](https://replit.com/@NipunBatra0/25Nov2022#hello.py)
 - 28 Nov. Variables, Expressions, Output. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/variables-expressions.ipynb), [Recording](https://drive.google.com/drive/folders/1e5fqackdf0HYYjfJVPuGC7ITRkXQGopr?usp=share_link)
@@ -26,3 +29,12 @@ description: "Education is what remains after one has forgotten what one has lea
 - 13 Dec. Evening. Iterables. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/es112_13_12_2022.ipynb), [Recording](https://drive.google.com/drive/folders/1-6irKfmyTZ6GlqiqQ03xaYwm12H6o19q), [Lecture Notes](https://github.com/nipunbatra/comp22/blob/master/lectures/es112%2013122022e.pdf)
 - 14 Dec. Morning. Functions are Values. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/higher_order_functions.ipynb), [Recording](https://drive.google.com/drive/folders/1n3jKdC0Rko82yOYydfZf7_KheCcY2UWO), [Lecture Notes](https://github.com/nipunbatra/comp22/blob/master/lectures/es112_14122022m.pdf)
 - 15 Dec. Morning. Scope. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/scope.ipynb), [Recording](), [Lecture Notes](https://github.com/nipunbatra/comp22/blob/master/lectures/es112_15122022m.pdf)
+
+### Quizzes and Exams
+
+- [WS1](../quizzes/ws1.pdf)
+- [WS2](../quizzes/ws2.pdf)
+- [WS3](../quizzes/ws3.pdf)
+- [WS4](../quizzes/ws4.pdf)
+- [WS5](../quizzes/ws5.pdf)
+- [Mid Sem](../quizzes/midsem.pdf)
