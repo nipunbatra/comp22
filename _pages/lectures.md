@@ -32,6 +32,7 @@ description: "Education is what remains after one has forgotten what one has lea
 - 15 Dec. Evening. Review of Basics. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/the-very-basics.ipynb), [Recording](https://drive.google.com/drive/folders/1enxBPryAPTTiX-K35WcaX7c7_0dtPrjc)
 - 16 Dec. Morning. Closures. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/closures.ipynb), [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/password_generator.ipynb) [Recording](https://drive.google.com/drive/folders/1K1zI7AkQGoF9-YB5FgNrRfDfkjHVCjE4)
 - 16 Dec. Evening. Review of Basics (nested if, while). [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/very-basics-2.ipynb), [Recording](https://drive.google.com/drive/folders/1K1zI7AkQGoF9-YB5FgNrRfDfkjHVCjE4)
+- 20 Dec. Morning. Readability/Sets. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/readability.ipynb), [Lecture Notes](https://github.com/nipunbatra/comp22/blob/master/lectures/es112_20122022m.pdf), [Recording]()
 
 =======
 
