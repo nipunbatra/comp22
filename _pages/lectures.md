@@ -46,5 +46,8 @@ description: "Education is what remains after one has forgotten what one has lea
 - [WS5](../quizzes/ws5.pdf)
 - [Mid Sem](../quizzes/midsem.pdf)
 - [WS6](../quizzes/ws6.pdf)
+- [WS7](../quizzes/ws7.pdf)
+- [WS8](../quizzes/ws8.pdf)
+- [WS9](../quizzes/ws9.pdf)
 - [MU](../quizzes/mu.pdf)
 
