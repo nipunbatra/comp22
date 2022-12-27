@@ -8,7 +8,6 @@ description: "Education is what remains after one has forgotten what one has lea
 
 [Folder containing notebooks](https://github.com/nipunbatra/comp22/tree/master/notebooks)
 
-
 ### Lecture notes
 
 - 24 Nov. Introduction. [Slides](../lectures/24Nov-Introduction.pdf), [Recording](https://drive.google.com/file/d/1w-dbASsRtPPOILpabSrS2siYFQqZgFSN/view?usp=share_link), [Code](https://github.com/nipunbatra/comp22/tree/master/notebooks/Introduction)
@@ -34,6 +33,7 @@ description: "Education is what remains after one has forgotten what one has lea
 - 16 Dec. Evening. Review of Basics (nested if, while). [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/very-basics-2.ipynb), [Recording](https://drive.google.com/drive/folders/1K1zI7AkQGoF9-YB5FgNrRfDfkjHVCjE4)
 - 20 Dec. Morning. Readability/Sets. [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/readability.ipynb), [Lecture Notes](https://github.com/nipunbatra/comp22/blob/master/lectures/es112_20122022m.pdf), [Recording]()
 - 21 Dec. Morning. Dictionary (Word Frequencies). [Code (Notebook)](https://github.com/nipunbatra/comp22/blob/master/notebooks/word_freq1.py), [Lecture Notes](https://github.com/nipunbatra/comp22/blob/master/lectures/es112_21122022m.pdf), [Recording]()
+- 23 Dec. Morning. Conclusion. [Notebook1](https://github.com/nipunbatra/comp22/blob/master/notebooks/conclusion.ipynb), [Notebook2](https://github.com/nipunbatra/comp22/blob/master/notebooks/conclusion-2.ipynb), Recording
 
 =======
 
@@ -50,4 +50,3 @@ description: "Education is what remains after one has forgotten what one has lea
 - [WS8](../quizzes/ws8.pdf)
 - [WS9](../quizzes/ws9.pdf)
 - [MU](../quizzes/mu.pdf)
-
