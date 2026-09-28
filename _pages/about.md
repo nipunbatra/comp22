@@ -1,24 +1,26 @@
 ---
 layout: about
 permalink: /
-title: Computing 2022
-description: ES 112
+title: "ES 112: Introduction to computing"
+description: "Winter 2022 · IIT Gandhinagar"
 ---
-### ES 112 - Introduction to Computing (2022 Winter)
 
-This is a first course in computing, and the goal of the course is to introduce you to fundamental principles of computational thinking. The immersive edition of the course will run over a period of four weeks.
+<p class="lead">This is a first course in computing, and the goal of the course is to introduce you to fundamental
+principles of computational thinking. The immersive edition of the course will run over a period of four weeks.
+Every lecture's notebooks, notes, recording, cheat sheet and short videos are in the
+<a href="{{ '/lectures/' | prepend: site.baseurl }}">lecture library</a>.</p>
 
-### Course Instructors
+## Course instructors
 
-Nipun Batra [[nipun.batra@iitgn.ac.in](mailto:nipun.batra@iitgn.ac.in)](%5Bnipun.batra@iitgn.ac.in%5D(mailto:nipun.batra@iitgn.ac.in))
+Nipun Batra ([nipun.batra@iitgn.ac.in](mailto:nipun.batra@iitgn.ac.in))
 
-Balagopal Komarath [[bkomarath@iitgn.ac.in](mailto:bkomarath@iitgn.ac.in)](%5Bbkomarath@iitgn.ac.in%5D(mailto:bkomarath@iitgn.ac.in))
+Balagopal Komarath ([bkomarath@iitgn.ac.in](mailto:bkomarath@iitgn.ac.in))
 
-### Slack channel
+## Slack channel
 
 The course will be delivered via Slack. As a registered student of the course, you will be added to Slack automatically. If not, please add yourself to Slack by clicking [here](https://join.slack.com/t/slack-v4e4710/shared_invite/zt-1jcu38grm-TxYbLQj0AYiVB0CVLQrrHg).
 
-### Timings
+## Timings
 
 - Lectures (all in Jasubhai Auditorium)
   - Monday: 11 AM to 1 PM
@@ -44,15 +46,15 @@ The course will be delivered via Slack. As a registered student of the course, y
     - Tuesday 2 to 4 PM in 7/108
     - Thursday 2 to 4 PM in 7/108
 
-### Office Hours
+## Office hours
 
 - Nipun Batra (Mon, Tue, Thu, Fri: 3-330 PM in AB6/407D: walkin without any appointment )
 
-### Sections
+## Sections
 
 Please see the [following spreadsheet ](https://docs.google.com/spreadsheets/d/1hYW8WhSTYLtZ9jKeodD1Vq7Of9HQ-BLTxNH5zMTWt3Q/edit?usp=sharing)(requires IITGn sign in).
 
-### Grading Policy
+## Grading policy
 
 - Worksheet: Best 6 out of 8: 6 worksheets x 8 marks = 48% -- Every week we will have about two worksheets.
 - Programming Assignments = 4 assignments X 6 marks = 24% -- Every week we will have one programming assignment. There will be no extensions!
@@ -64,7 +66,7 @@ Please see the [following spreadsheet ](https://docs.google.com/spreadsheets/d/1
 - 1 end-semester exam = 16% -- On 23 December 2022
 
 
-### Core Syllabus
+## Core syllabus
 
 The topics covered would depend on the class pace among other things.
 

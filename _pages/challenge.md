@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /challenge/
-title: Challenging Questions
+title: Challenging questions
+nav_order: 2
 description: "Education is what remains after one has forgotten what one has learned in school."
 ---
 
