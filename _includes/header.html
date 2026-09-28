@@ -1,44 +1,44 @@
-<header class="site-header">
+<header class="nb-header" id="nb-header">
+  <div class="nb-wrap">
+    <a class="nb-brand" href="{{ site.baseurl | prepend: site.url }}/">{{ site.course_title }}</a>
 
-  <div class="wrapper">
-
-    {% if page.layout != "about" %}
-    <span class="site-title">
-        {% assign name = site.name | split: ' ' %}
-        <strong>{{ name | first }}</strong> {{ name | last }}
-    </span>
-    {% endif %}
-
-    <nav class="site-nav">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-      <div class="trigger">
-        <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">Course Home</a>
-
-        <!-- Pages -->
-        {% for page in site.pages %}
-          {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-
-        <a class="page-link" href="https://nipunbatra.github.io/">Instructor Webpage</a>
-        <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
-
-      </div>
+    <nav class="nb-nav" id="nb-nav" aria-label="Main">
+      <a href="{{ site.baseurl | prepend: site.url }}/"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
+      {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
+      {% for p in nav_pages %}
+        <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>{{ p.nav_title | default: p.title }}</a>
+      {% endfor %}
+      <a href="https://nipunbatra.github.io/">Instructor</a>
     </nav>
 
+    <button class="nb-icon-btn nb-theme" id="nb-theme" type="button" aria-label="Switch between light and dark">
+      <svg class="nb-when-light" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/></svg>
+      <svg class="nb-when-dark" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>
+    </button>
+    <button class="nb-icon-btn nb-menu" id="nb-menu" type="button" aria-label="Menu" aria-controls="nb-nav" aria-expanded="false">
+      <span class="nb-bar"></span><span class="nb-bar"></span><span class="nb-bar"></span>
+    </button>
   </div>
-
 </header>
+<script>
+  (function () {
+    var root = document.documentElement;
+    function current() {
+      var t = root.getAttribute("data-theme");
+      if (t) return t;
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    root.setAttribute("data-theme", current());
+    document.getElementById("nb-theme").addEventListener("click", function () {
+      var next = current() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+    });
+    var header = document.getElementById("nb-header");
+    var menu = document.getElementById("nb-menu");
+    menu.addEventListener("click", function () {
+      var open = header.classList.toggle("is-open");
+      menu.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  })();
+</script>

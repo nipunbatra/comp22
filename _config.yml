@@ -4,7 +4,9 @@
 name: Computing
 email: nipun.batra@iitgn.ac.in
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  ES 112 Introduction to computing, IIT Gandhinagar, winter 2022: lectures, notebooks, cheat sheets and short videos.
+course_title: "ES 112 · Introduction to computing"  # navbar title (plain text)
+footer_left: "ES 112 Introduction to computing · IIT Gandhinagar · Winter 2022"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -86,6 +88,10 @@ news_limit: 5
 
 # Build settings
 markdown: kramdown
+kramdown:
+  # Keep straight quotes and plain -- in the text (no curly quotes, en or em dashes).
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols: {hellip: "...", mdash: "---", ndash: "--", laquo: "<<", raquo: ">>", laquo_space: "<< ", raquo_space: " >>"}
 highlighter: rogue
 
 # Includes & excludes

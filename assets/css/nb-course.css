@@ -1,0 +1,482 @@
+/*
+ * nb-course.css: the shared course theme, ported for this Jekyll (al-folio) site.
+ *
+ * Source: courses/nb-course.scss in nipunbatra/dl-summaries (the Quarto layer used by the other course sites).
+ * The design tokens (colours, fonts, 1080px container) come from nipunbatra.github.io/common.css. Every colour
+ * below reads a CSS custom property, so a later palette change only needs new values in the TOKENS blocks.
+ *
+ * Plain CSS on purpose: GitHub Pages builds this site with Ruby Sass 3.7, which does not know newer CSS
+ * functions, so the file is served as is and loaded after assets/css/main.css (see _includes/head.html).
+ *
+ * Kept in step with nb-course.scss as of its 2026-09-28 changelog (resource labels never break; footer
+ * contained to the page width; this site has no search box, so the search-icon fix does not apply).
+ *
+ * Dark mode: <html data-theme="dark"> (set by the toggle in _includes/header.html, remembered in localStorage
+ * under "theme", the key al-folio uses), or the reader's system setting when no choice is stored.
+ */
+
+/* ------------------------------------------------------------------ TOKENS */
+:root,
+:root[data-theme="light"] {
+  --ink: #1a1a2e;
+  --muted: #596174;
+  --paper: #fffefc;
+  --paper-soft: #f7f4ef;
+  --accent: #c44536;
+  --accent-soft: rgba(196, 69, 54, 0.55);
+  --line: rgba(26, 26, 46, 0.12);
+  --line-strong: rgba(26, 26, 46, 0.22);
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --ink: #f0edf4;
+  --muted: #b5afbf;
+  --paper: #171622;
+  --paper-soft: #211f2c;
+  --accent: #ec8676;
+  --accent-soft: rgba(236, 134, 118, 0.55);
+  --line: rgba(255, 255, 255, 0.13);
+  --line-strong: rgba(255, 255, 255, 0.24);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #f0edf4;
+    --muted: #b5afbf;
+    --paper: #171622;
+    --paper-soft: #211f2c;
+    --accent: #ec8676;
+    --accent-soft: rgba(236, 134, 118, 0.55);
+    --line: rgba(255, 255, 255, 0.13);
+    --line-strong: rgba(255, 255, 255, 0.24);
+    color-scheme: dark;
+  }
+}
+:root {
+  --container: 1080px;
+  --measure: 68ch;
+  --gutter: 24px;
+  --font-body: "Work Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-head: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* ------------------------------------------------------------------ base */
+html {
+  margin-left: 0; /* al-folio reserves scrollbar space this way; it shifts the page on phones */
+  background: var(--paper);
+  font-size: 16px;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.65;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: rgba(196, 69, 54, 0.22); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+h1, h2, h3, h4,
+.post-content h1, .post-content h2, .post-content h3, .post-content h4 {
+  font-family: var(--font-head);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  font-variant-numeric: lining-nums;
+}
+h1, .post-content h1 { font-size: 2.25rem; line-height: 1.2; }
+h2, .post-content h2 { font-size: 1.75rem; line-height: 1.25; margin: 2.25rem 0 0.875rem; }
+h3, .post-content h3 { font-size: 1.375rem; line-height: 1.3; margin: 1.75rem 0 0.625rem; }
+h4, .post-content h4 { font-size: 1.125rem; line-height: 1.35; margin: 1.5rem 0 0.5rem; }
+h5, h6 { font-family: var(--font-body); font-weight: 600; font-size: 1rem; color: var(--ink); }
+
+a,
+article a,
+.news a {
+  color: var(--accent);
+  font-weight: inherit;
+  text-decoration: none;
+}
+a:hover,
+article a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+strong, b { font-weight: 600; }
+small, .small { font-size: 0.875rem; }
+p, ul, ol { margin: 0 0 1rem; }
+p { color: inherit; line-height: inherit; } /* al-folio sets p to #333 and 1.5 */
+sup { top: auto; vertical-align: super; font-size: 0.8125rem; }
+li + li { margin-top: 0.25rem; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.25rem 0; }
+img { max-width: 100%; height: auto; }
+
+/* ------------------------------------------------------------------ layout: 1080px container, 68ch text */
+.wrapper,
+.nb-wrap {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  box-sizing: border-box;
+}
+body { display: flex; flex-direction: column; min-height: 100vh; }
+.page-content { padding: 0 0 3rem; flex: 1 0 auto; }
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content blockquote,
+.post-header .post-description { max-width: var(--measure); }
+.post-content td p,
+.post-content td ul { max-width: none; }
+
+/* Page title block */
+.post-header {
+  margin: 2.5rem 0 1.75rem;
+  padding-bottom: 1.375rem;
+  border-bottom: 1px solid var(--line);
+}
+.post-title {
+  font-family: var(--font-head);
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--ink);
+}
+.post-header .post-description {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.post-header .post-description:empty { display: none; }
+.lead { font-size: 1.125rem; line-height: 1.6; }
+
+/* ------------------------------------------------------------------ navbar (quiet) */
+.nb-header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.nb-header .nb-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 56px;
+  column-gap: 1rem;
+}
+.nb-brand {
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-right: auto;
+  white-space: nowrap;
+  font-variant-numeric: lining-nums;
+}
+.nb-brand:hover { color: var(--accent); text-decoration: none; }
+.nb-nav { display: flex; align-items: center; }
+.nb-nav a {
+  color: var(--ink);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+}
+.nb-nav a:hover { color: var(--accent); text-decoration: none; }
+.nb-nav a[aria-current="page"] {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+}
+.nb-icon-btn {
+  background: none;
+  border: 0;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0.375rem;
+  line-height: 0;
+  border-radius: 4px;
+}
+.nb-icon-btn:hover { color: var(--accent); }
+.nb-icon-btn svg { width: 18px; height: 18px; fill: currentColor; }
+.nb-theme .nb-when-dark { display: none; }
+:root[data-theme="dark"] .nb-theme .nb-when-dark { display: inline; }
+:root[data-theme="dark"] .nb-theme .nb-when-light { display: none; }
+.nb-menu { display: none; border: 1px solid var(--line); }
+.nb-menu .nb-bar { display: block; width: 18px; height: 1.5px; background: var(--ink); margin: 3.5px 0; }
+
+@media (max-width: 767.98px) {
+  :root { --gutter: 16px; }
+  .nb-brand { font-size: 1rem; }
+  .nb-menu { display: inline-block; padding: 0.375rem 0.5rem; }
+  .nb-nav {
+    display: none;
+    order: 10;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.25rem 0 0.75rem;
+  }
+  .nb-header.is-open .nb-nav { display: flex; }
+  .nb-nav a { padding: 0.375rem 0; }
+}
+
+/* ------------------------------------------------------------------ tables */
+table {
+  width: auto;
+  min-width: min(100%, 36rem);
+  max-width: 100%;
+  margin: 1rem 0 1.75rem;
+  border: 0;
+  border-collapse: collapse;
+  background: transparent;
+  font-size: 1rem;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table th,
+table td {
+  padding: 0.75rem;
+  line-height: 1.5;
+  vertical-align: top;
+  border: 0;
+  border-top: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+}
+table > thead > tr > th,
+table thead th,
+table thead td {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line-strong);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+table tbody tr:nth-child(odd),
+table tbody tr:hover { background: transparent; }
+table tr.group td,
+table tr.group th {
+  font-family: var(--font-head);
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: var(--ink);
+  padding-top: 1.375rem;
+}
+/* Dense tables: ink links with a thin accent underline, not a column of red links. */
+table a,
+article table a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-soft);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+table a:hover,
+article table a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+@media (max-width: 767.98px) {
+  .post-content table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+}
+
+/* ------------------------------------------------------------------ lecture library */
+.lecture-library table { width: 100%; table-layout: fixed; margin-top: 0.5rem; }
+.lecture-library h2 { font-size: 1.375rem; margin: 2.25rem 0 0.25rem; }
+.lecture-library th:nth-child(1),
+.lecture-library td:nth-child(1) {
+  width: 4.5rem;
+  text-align: right !important;
+  padding-right: 1.25rem;
+  white-space: nowrap;
+}
+.lecture-library th:nth-child(2),
+.lecture-library td:nth-child(2) { width: 44%; }
+.lecture-library td:nth-child(1) {
+  font-family: var(--font-head);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.lecture-library td:nth-child(2) strong {
+  display: block;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+}
+.lec-desc {
+  display: block;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-top: 0.125rem;
+}
+.lec-desc code { color: inherit; font-weight: 400; }
+.lec-date {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  color: var(--muted);
+  line-height: 1.4;
+  margin-top: 0.125rem;
+  white-space: normal;
+}
+.lecture-library td:nth-child(3) { font-size: 0.875rem; line-height: 1.75; }
+
+/* Resource links: "Slides · Notes · Notebook · Cheat sheet · Shorts 1 2 3 · Recording" */
+.res { display: inline; }
+/* A label never breaks inside itself ("Cheat sheet", "Password generator"); lines break between links. */
+.res a { white-space: nowrap; }
+.res:not(:last-child)::after {
+  content: "\00a0\00a0\00b7";
+  color: var(--muted);
+  margin-right: 0.2em;
+}
+.res-k { white-space: nowrap; color: var(--muted); font-weight: 500; margin-right: 0.15em; }
+a.short-n,
+table a.short-n {
+  display: inline;
+  padding: 0 0.3em;
+  margin: 0 0.05em;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  text-decoration: none;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+a.short-n:hover,
+a.short-n:focus-visible,
+table a.short-n:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.res-key { color: var(--muted); font-size: 0.875rem; }
+.res-key strong { color: var(--ink); font-weight: 600; }
+
+@media (max-width: 767.98px) {
+  .post-content .lecture-library table { overflow: visible; }
+  .lecture-library table,
+  .lecture-library thead,
+  .lecture-library tbody,
+  .lecture-library tr,
+  .lecture-library td { display: block; width: auto !important; }
+  .lecture-library thead { display: none; }
+  .lecture-library tr {
+    border-bottom: 1px solid var(--line);
+    padding: 0.875rem 0;
+    display: grid;
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+    column-gap: 0.75rem;
+  }
+  .lecture-library td { border: 0 !important; padding: 0 !important; }
+  .lecture-library td:nth-child(1) { grid-row: 1 / span 2; text-align: left !important; overflow-wrap: normal; }
+  .lecture-library td:nth-child(3) { margin-top: 0.375rem; }
+  /* "Cheat sheets&nbsp;Input, output and basic strings" is wider than a phone column when kept on one line:
+     let a named sheet wrap there rather than scroll the page. */
+  .lecture-library .res-sheet .res-k ~ a { white-space: normal; }
+  .lecture-library tbody tr:first-child { border-top: 1px solid var(--line-strong); }
+}
+
+/* ------------------------------------------------------------------ cards (only where needed) */
+.nb-card {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.875rem 1.125rem;
+  margin: 1.5rem 0;
+  max-width: var(--measure);
+}
+.nb-card > :last-child { margin-bottom: 0; }
+
+/* ------------------------------------------------------------------ code */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  color: var(--ink);
+  background: var(--paper-soft);
+  border-radius: 4px;
+  padding: 0.1em 0.3em;
+}
+pre code { background: transparent; padding: 0; }
+pre,
+.highlight,
+.highlight pre {
+  background: var(--paper-soft) !important;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+.highlight pre { border: 0; }
+
+/* ------------------------------------------------------------------ blockquote */
+blockquote {
+  border-left: 0;
+  padding: 0 0 0 1.125rem;
+  margin: 1.5rem 0;
+  color: var(--muted);
+  font-style: italic;
+  box-shadow: inset 1px 0 0 var(--line-strong) !important;
+}
+
+/* ------------------------------------------------------------------ footer */
+footer.nb-footer {
+  position: static;
+  background: var(--paper);
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 0.8125rem;
+  font-weight: 400;
+  padding: 0;
+}
+.nb-footer .nb-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.nb-footer a { color: var(--muted); }
+.nb-footer a:hover { color: var(--accent); }
+
+/* ------------------------------------------------------------------ no shadows, glows, lifts or animations */
+*,
+*::before,
+*::after {
+  box-shadow: none;
+  text-shadow: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+blockquote { box-shadow: inset 1px 0 0 var(--line-strong) !important; }
+
+/* ------------------------------------------------------------------ phones */
+@media (max-width: 767.98px) {
+  .post-title, h1, .post-content h1 { font-size: 1.75rem; }
+  h2, .post-content h2, .lecture-library h2 { font-size: 1.375rem; }
+  .post-header { margin-top: 1.75rem; }
+  .post-content { overflow-wrap: break-word; }
+  .nb-footer .nb-wrap { flex-direction: column; }
+}
