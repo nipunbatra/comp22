@@ -1,0 +1,10 @@
+---
+title: "Challenging questions"
+include-in-header:
+  text: |
+    <meta http-equiv="refresh" content="0; url=../challenge.html">
+    <link rel="canonical" href="https://nipunbatra.github.io/comp22/challenge.html">
+    <meta name="robots" content="noindex">
+---
+
+This page has moved: [go to Challenging questions](/challenge.html).

@@ -1,0 +1,7 @@
+---
+title: "Challenging questions"
+---
+
+Problems for practice beyond the worksheets and assignments.
+
+1. Sum of primes: [Project Euler, problem 10](https://projecteuler.net/problem=10)

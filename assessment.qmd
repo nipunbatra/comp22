@@ -1,0 +1,53 @@
+---
+title: "Assessment"
+body-classes: dl wide
+---
+
+```{=html}
+<p class="lede">Grading, dates and the question papers of the November–December 2022 edition. Worksheets carry the most weight; there is one programming assignment a week, with no extensions.</p>
+```
+
+::: {.two .rule-top}
+
+## Dates {#deadlines}
+
+{{< include _dates.qmd >}}
+
+## Grading {#grading}
+
+```{=html}
+<table class="t" data-quarto-disable-processing="true">
+<thead><tr><th>Component</th><th>Weight</th><th>How</th></tr></thead>
+<tbody>
+<tr><th>Worksheets</th><td class="big">48%</td><td>Best six of eight, 8 marks each. About two worksheets a week.</td></tr>
+<tr><th>Programming assignments</th><td class="big">24%</td><td>Four assignments, 6 marks each, one a week. There are no extensions.</td></tr>
+<tr><th>Mid-semester exam</th><td class="big">12%</td><td>On 8 December 2022.</td></tr>
+<tr><th>End-semester exam</th><td class="big">16%</td><td>On 23 December 2022.</td></tr>
+</tbody></table>
+```
+
+:::
+
+::: {.rule-top}
+
+## Worksheets and exams {#papers}
+
+```{=html}
+<table class="t" data-quarto-disable-processing="true">
+<thead><tr><th>Assessment</th><th>Paper</th></tr></thead>
+<tbody>
+<tr><td>Worksheet 1</td><td><a href="quizzes/ws1.pdf">WS1</a> (PDF)</td></tr>
+<tr><td>Worksheet 2</td><td><a href="quizzes/ws2.pdf">WS2</a> (PDF)</td></tr>
+<tr><td>Worksheet 3</td><td><a href="quizzes/ws3.pdf">WS3</a> (PDF)</td></tr>
+<tr><td>Worksheet 4</td><td><a href="quizzes/ws4.pdf">WS4</a> (PDF)</td></tr>
+<tr><td>Worksheet 5</td><td><a href="quizzes/ws5.pdf">WS5</a> (PDF)</td></tr>
+<tr><td>Mid-semester exam</td><td><a href="quizzes/midsem.pdf">Mid-semester</a> (PDF)</td></tr>
+<tr><td>Worksheet 6</td><td><a href="quizzes/ws6.pdf">WS6</a> (PDF)</td></tr>
+<tr><td>Worksheet 7</td><td><a href="quizzes/ws7.pdf">WS7</a> (PDF)</td></tr>
+<tr><td>Worksheet 8</td><td><a href="quizzes/ws8.pdf">WS8</a> (PDF)</td></tr>
+<tr><td>Worksheet 9</td><td><a href="quizzes/ws9.pdf">WS9</a> (PDF)</td></tr>
+<tr><td>MU</td><td><a href="quizzes/mu.pdf">MU</a> (PDF)</td></tr>
+</tbody></table>
+```
+
+:::

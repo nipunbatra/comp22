@@ -1,0 +1,17 @@
+<!-- Course dates, shared by Assessment. Write dates as "08 Oct 19" or "08 Oct 19, 6:30 pm" (IST);
+     the page greys out past rows from the date in the browser. -->
+
+::: {.dates}
+
+| Date | Event |
+|---|---|
+| 24 Nov 22 | First lecture |
+| 28 Nov 22 | Programming assignment 1 released |
+| 05 Dec 22, 10:00 pm | Programming assignment 1 due; assignment 2 released |
+| 08 Dec 22 | **Mid-semester exam** ([paper](quizzes/midsem.pdf)) |
+| 10 Dec 22, 10:00 pm | Programming assignment 2 due; assignment 3 released |
+| 14 Dec 22, 10:00 pm | Programming assignment 3 due; assignment 4 released |
+| 19 Dec 22, 10:00 pm | Programming assignment 4 due |
+| 23 Dec 22 | **End-semester exam** |
+
+:::

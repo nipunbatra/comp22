@@ -1,0 +1,95 @@
+---
+pagetitle: "ES 112 · Introduction to Computing 2022"
+description: "Introduction to Computing at IIT Gandhinagar, Winter 2022"
+body-classes: dl wide
+---
+
+::: {.top}
+
+::: {.top-main}
+```{=html}
+<span hidden></span><!-- keeps Quarto from moving the h1 into its own title block -->
+<h1 class="h1">Introduction to Computing</h1>
+<p class="role">ES 112 · IIT Gandhinagar · Winter 2022</p>
+<p class="lede" style="margin-top:18px">A first course in computing, whose goal is to introduce the fundamental principles of computational thinking. This immersive edition ran over four weeks, with a two-hour lecture every weekday and two lab sessions a week, from variables and conditionals through loops, lists and strings to functions, closures and dictionaries in Python.</p>
+<dl class="facts">
+  <dt>Instructors</dt><dd><a href="https://nipunbatra.github.io">Prof. Nipun Batra</a> (<a href="mailto:nipun.batra@iitgn.ac.in">nipun.batra@iitgn.ac.in</a>) and Prof. Balagopal Komarath (<a href="mailto:bkomarath@iitgn.ac.in">bkomarath@iitgn.ac.in</a>)</dd>
+  <dt>Lectures</dt><dd>Monday to Friday, 11:00 am–1:00 pm, Jasubhai Auditorium; occasionally on Saturday</dd>
+  <dt>Labs</dt><dd>Two sessions a week in 7/108 or 7/109; see <a href="#labs">lab sections</a></dd>
+  <dt>Office hours</dt><dd>Prof. Nipun Batra: Monday, Tuesday, Thursday and Friday, 3:00–3:30 pm, AB6/407D; walk in without an appointment</dd>
+  <dt>Discussion</dt><dd>The course is delivered via <a href="https://join.slack.com/t/slack-v4e4710/shared_invite/zt-1jcu38grm-TxYbLQj0AYiVB0CVLQrrHg">Slack</a></dd>
+</dl>
+```
+:::
+
+::: {.next aria-labelledby="record-h"}
+```{=html}
+<span class="label" id="record-h">Course record</span>
+<p class="small" style="margin:0 0 12px">This edition ran from 24 November to 23 December 2022. Its slides, notes, notebooks, recordings and worksheets remain available.</p>
+<dl>
+  <dt>Lectures</dt><dd><a href="schedule.html"><span class="stat">24</span></a></dd>
+  <dt>Worksheets</dt><dd><a href="assessment.html#papers">9 papers</a></dd>
+  <dt>Exams</dt><dd><a href="assessment.html#papers">Mid-semester and MU papers</a></dd>
+  <dt>Notebooks</dt><dd><a href="https://github.com/nipunbatra/comp22/tree/master/notebooks">On GitHub</a></dd>
+  <dt>Recordings</dt><dd><a href="https://drive.google.com/drive/folders/1h3vz7sbIEwuzO9CO3WNG4bYADdjeYmp9?usp=sharing">On Google Drive</a></dd>
+</dl>
+<p class="all"><a href="assessment.html#deadlines">All dates</a></p>
+```
+:::
+
+:::
+
+```{=html}
+<section class="rule-top" id="lectures"><h2>Lectures</h2>
+<ul class="modules c5">
+  <li><span class="r">1–3</span><a href="schedule.html#getting-started">Getting started</a><span class="c">3 lectures</span></li>
+  <li><span class="r">4–8</span><a href="schedule.html#conditionals-loops">Conditionals and loops</a><span class="c">5 lectures</span></li>
+  <li><span class="r">9–13</span><a href="schedule.html#sequences">Lists, strings and memory</a><span class="c">5 lectures</span></li>
+  <li><span class="r">14–21</span><a href="schedule.html#functions">Functions</a><span class="c">8 lectures</span></li>
+  <li><span class="r">22–24</span><a href="schedule.html#sets-dictionaries">Readability, sets and dictionaries</a><span class="c">3 lectures</span></li>
+</ul>
+<div class="playlists">
+  <a class="btn ib" href="https://drive.google.com/drive/folders/1h3vz7sbIEwuzO9CO3WNG4bYADdjeYmp9?usp=sharing" target="_blank" rel="noopener noreferrer"><svg class="ic ic-recording" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>All recordings (Google Drive)</a>
+  <a class="btn ib" href="https://github.com/nipunbatra/comp22/tree/master/notebooks" target="_blank" rel="noopener noreferrer"><svg class="ic ic-notebook" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"/></svg>All notebooks (GitHub)</a>
+  <a class="btn solid" href="schedule.html">All 24 lectures</a>
+</div>
+</section>
+
+<div class="two rule-top">
+<section id="faq"><h2>Questions</h2>
+<details class="q" id="delivery"><summary>How is the course delivered?</summary><p>Via Slack. Registered students are added automatically; if you were not, <a href="https://join.slack.com/t/slack-v4e4710/shared_invite/zt-1jcu38grm-TxYbLQj0AYiVB0CVLQrrHg">add yourself here</a>.</p></details>
+<details class="q" id="section"><summary>Which lab section am I in?</summary><p>See the <a href="https://docs.google.com/spreadsheets/d/1hYW8WhSTYLtZ9jKeodD1Vq7Of9HQ-BLTxNH5zMTWt3Q/edit?usp=sharing">sections spreadsheet</a> (requires an IIT Gandhinagar sign-in), then find your times under <a href="#labs">lab sections</a>.</p></details>
+<details class="q" id="worksheets"><summary>How many worksheets count?</summary><p>The best six of eight, at 8 marks each, for 48% of the grade. There are about two worksheets a week.</p></details>
+<details class="q" id="extensions"><summary>Can I get an extension on a programming assignment?</summary><p>No. There is one programming assignment a week, and there are no extensions. See the <a href="assessment.html#deadlines">dates</a>.</p></details>
+<details class="q" id="recordings"><summary>Where are the lecture recordings?</summary><p>Each lecture on the <a href="schedule.html">Lectures</a> page links its recording, and all of them are in a <a href="https://drive.google.com/drive/folders/1h3vz7sbIEwuzO9CO3WNG4bYADdjeYmp9?usp=sharing">Google Drive folder</a>. You need to be signed in with your IIT Gandhinagar email to view them.</p></details>
+</section>
+<section id="references"><h2>Core syllabus</h2>
+<p class="small muted">The topics covered depend on the pace of the class, among other things.</p>
+<ul class="refs">
+  <li>Variables and expressions</li>
+  <li>Conditionals</li>
+  <li>Loops and iteration</li>
+  <li>Functions</li>
+  <li>Strings</li>
+  <li>Lists</li>
+  <li>Dictionaries</li>
+  <li>Tuples</li>
+  <li>Object-oriented programming</li>
+</ul>
+<p class="small muted" style="margin-top:14px">For practice, try the <a href="challenge.html">challenging questions</a>.</p>
+</section>
+</div>
+
+<section class="rule-top" id="labs"><h2>Lab sections</h2>
+<table class="t" data-quarto-disable-processing="true">
+<thead><tr><th>Section</th><th>Days</th><th>Time</th><th>Room</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Monday and Wednesday</td><td>2:00–4:00 pm</td><td>7/108</td></tr>
+<tr><td>2</td><td>Monday and Wednesday</td><td>4:00–6:00 pm</td><td>7/108</td></tr>
+<tr><td>3</td><td>Monday and Wednesday</td><td>2:00–4:00 pm</td><td>7/109</td></tr>
+<tr><td>4</td><td>Monday and Wednesday</td><td>4:00–6:00 pm</td><td>7/109</td></tr>
+<tr><td>5</td><td>Tuesday and Thursday</td><td>2:00–4:00 pm</td><td>7/108</td></tr>
+</tbody></table>
+<p class="small muted">Section lists: <a href="https://docs.google.com/spreadsheets/d/1hYW8WhSTYLtZ9jKeodD1Vq7Of9HQ-BLTxNH5zMTWt3Q/edit?usp=sharing">spreadsheet</a> (requires an IIT Gandhinagar sign-in).</p>
+</section>
+```

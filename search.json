@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "challenge/index.html",
+    "href": "challenge/index.html",
+    "title": "Challenging questions",
+    "section": "",
+    "text": "ES 112\n  IIT Gandhinagar\n  \n  \n    Home\n    Lectures\n    Assessment\n    Challenges\n    Slack\n  \n\n\n\n\n\n\nThis page has moved: go to Challenging questions."
+  },
+  {
+    "objectID": "lectures/index.html",
+    "href": "lectures/index.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "ES 112\n  IIT Gandhinagar\n  \n  \n    Home\n    Lectures\n    Assessment\n    Challenges\n    Slack\n  \n\n\n\n\n\n\nThis page has moved: go to Lectures."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "ES 112\n  IIT Gandhinagar\n  \n  \n    Home\n    Lectures\n    Assessment\n    Challenges\n    Slack\n  \n\n\n\n\n\n\n\nEvery lecture of the four-week immersive edition (November–December 2022), numbered in order, with its slides, notes, recordings and notebooks.\nNotesSlidesFull recordingNotebookInteractive labCode\nGetting started1–3Conditionals and loops4–8Lists, strings and memory9–13Functions14–21Readability, sets and dictionaries22–24\nAll recordings (Google Drive)All notebooks (GitHub)\n\nGetting startedLectures 1–3\n\nLecture 01Introduction\nSlidesRecordingCode: Introduction examples\nLecture 02A spreadsheet-like programShowcasing how to use all course components to create a spreadsheet-like program.\nRecordingNotebookReplit\nLecture 03Variables, expressions and output\nRecordingNotebook\n\n\nConditionals and loopsLectures 4–8\n\nLecture 04Input, strings (basics) and conditionals I\nWritten notesRecordingNotebook\nLecture 05Floating-point precision and short-circuiting\nWritten notesRecordingNotebook\nLecture 06Conditionals II\nRecordingNotebook\nLecture 07While loop\nRecordingNotebook\nLecture 08While loop (continued) and primality\nRecordingNotebook\n\n\nLists, strings and memoryLectures 9–13\n\nLecture 09Nested while; lists\nRecordingNotebook\nLecture 10Lists (continued)\nRecordingNotebook\nLecture 11Slicing; for loop\nRecordingNotebook: SlicingNotebook: For loop\nLecture 12Python memory\nWritten notesRecordingNotebook\nLecture 13Strings\nRecordingNotebook\n\n\nFunctionsLectures 14–21\n\nLecture 14Functions\nLecture notesRecordingNotebook\nLecture 15Iterables\nLecture notesRecordingNotebook\nLecture 16Iterables (continued)\nLecture notesRecordingNotebook\nLecture 17Functions are values\nLecture notesRecordingNotebook\nLecture 18Scope\nLecture notesRecordingNotebook\nLecture 19Review of the basics\nRecordingNotebook\nLecture 20Closures\nLecture notesRecordingNotebook: ClosuresNotebook: Password generator\nLecture 21Review of the basics: nested if, while\nLecture notesRecordingNotebook\n\n\nReadability, sets and dictionariesLectures 22–24\n\nLecture 22Readability and sets\nLecture notesNotebook\nLecture 23Dictionaries: word frequencies\nLecture notesCode: Word frequencies\nLecture 24Conclusion\nNotebook 1Notebook 2\n\n\n\nRecordings are on Google Drive and need an IIT Gandhinagar sign-in. Notebooks and lecture notes open on GitHub. Several days had a morning and an evening lecture."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Computing",
+    "section": "",
+    "text": "ES 112\n  IIT Gandhinagar\n  \n  \n    Home\n    Lectures\n    Assessment\n    Challenges\n    Slack\n  \n\n\n\n\n\n\n\n\n\nIntroduction to Computing\nES 112 · IIT Gandhinagar · Winter 2022\nA first course in computing, whose goal is to introduce the fundamental principles of computational thinking. This immersive edition ran over four weeks, with a two-hour lecture every weekday and two lab sessions a week, from variables and conditionals through loops, lists and strings to functions, closures and dictionaries in Python.\n\n  InstructorsProf. Nipun Batra (nipun.batra@iitgn.ac.in) and Prof. Balagopal Komarath (bkomarath@iitgn.ac.in)\n  LecturesMonday to Friday, 11:00 am–1:00 pm, Jasubhai Auditorium; occasionally on Saturday\n  LabsTwo sessions a week in 7/108 or 7/109; see lab sections\n  Office hoursProf. Nipun Batra: Monday, Tuesday, Thursday and Friday, 3:00–3:30 pm, AB6/407D; walk in without an appointment\n  DiscussionThe course is delivered via Slack\n\n\n\nCourse record\nThis edition ran from 24 November to 23 December 2022. Its slides, notes, notebooks, recordings and worksheets remain available.\n\n  Lectures24\n  Worksheets9 papers\n  ExamsMid-semester and MU papers\n  NotebooksOn GitHub\n  RecordingsOn Google Drive\n\nAll dates\n\n\nLectures\n\n  1–3Getting started3 lectures\n  4–8Conditionals and loops5 lectures\n  9–13Lists, strings and memory5 lectures\n  14–21Functions8 lectures\n  22–24Readability, sets and dictionaries3 lectures\n\n\n  All recordings (Google Drive)\n  All notebooks (GitHub)\n  All 24 lectures\n\n\n\n\nQuestions\nHow is the course delivered?Via Slack. Registered students are added automatically; if you were not, add yourself here.\nWhich lab section am I in?See the sections spreadsheet (requires an IIT Gandhinagar sign-in), then find your times under lab sections.\nHow many worksheets count?The best six of eight, at 8 marks each, for 48% of the grade. There are about two worksheets a week.\nCan I get an extension on a programming assignment?No. There is one programming assignment a week, and there are no extensions. See the dates.\nWhere are the lecture recordings?Each lecture on the Lectures page links its recording, and all of them are in a Google Drive folder. You need to be signed in with your IIT Gandhinagar email to view them.\n\nCore syllabus\nThe topics covered depend on the pace of the class, among other things.\n\n  Variables and expressions\n  Conditionals\n  Loops and iteration\n  Functions\n  Strings\n  Lists\n  Dictionaries\n  Tuples\n  Object-oriented programming\n\nFor practice, try the challenging questions.\n\n\n\nLab sections\n\nSectionDaysTimeRoom\n\n1Monday and Wednesday2:00–4:00 pm7/108\n2Monday and Wednesday4:00–6:00 pm7/108\n3Monday and Wednesday2:00–4:00 pm7/109\n4Monday and Wednesday4:00–6:00 pm7/109\n5Tuesday and Thursday2:00–4:00 pm7/108\n\nSection lists: spreadsheet (requires an IIT Gandhinagar sign-in)."
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "Assessment",
+    "section": "",
+    "text": "ES 112\n  IIT Gandhinagar\n  \n  \n    Home\n    Lectures\n    Assessment\n    Challenges\n    Slack\nGrading, dates and the question papers of the November–December 2022 edition. Worksheets carry the most weight; there is one programming assignment a week, with no extensions."
+  },
+  {
+    "objectID": "assessment.html#deadlines",
+    "href": "assessment.html#deadlines",
+    "title": "Assessment",
+    "section": "Dates",
+    "text": "Dates\n\n\n\n\n\nDate\nEvent\n\n\n\n\n24 Nov 22\nFirst lecture\n\n\n28 Nov 22\nProgramming assignment 1 released\n\n\n05 Dec 22, 10:00 pm\nProgramming assignment 1 due; assignment 2 released\n\n\n08 Dec 22\nMid-semester exam (paper)\n\n\n10 Dec 22, 10:00 pm\nProgramming assignment 2 due; assignment 3 released\n\n\n14 Dec 22, 10:00 pm\nProgramming assignment 3 due; assignment 4 released\n\n\n19 Dec 22, 10:00 pm\nProgramming assignment 4 due\n\n\n23 Dec 22\nEnd-semester exam"
+  },
+  {
+    "objectID": "assessment.html#grading",
+    "href": "assessment.html#grading",
+    "title": "Assessment",
+    "section": "Grading",
+    "text": "Grading\n\nComponentWeightHow\n\nWorksheets48%Best six of eight, 8 marks each. About two worksheets a week.\nProgramming assignments24%Four assignments, 6 marks each, one a week. There are no extensions.\nMid-semester exam12%On 8 December 2022.\nEnd-semester exam16%On 23 December 2022."
+  },
+  {
+    "objectID": "assessment.html#papers",
+    "href": "assessment.html#papers",
+    "title": "Assessment",
+    "section": "Worksheets and exams",
+    "text": "Worksheets and exams\n\nAssessmentPaper\n\nWorksheet 1WS1 (PDF)\nWorksheet 2WS2 (PDF)\nWorksheet 3WS3 (PDF)\nWorksheet 4WS4 (PDF)\nWorksheet 5WS5 (PDF)\nMid-semester examMid-semester (PDF)\nWorksheet 6WS6 (PDF)\nWorksheet 7WS7 (PDF)\nWorksheet 8WS8 (PDF)\nWorksheet 9WS9 (PDF)\nMUMU (PDF)"
+  },
+  {
+    "objectID": "challenge.html",
+    "href": "challenge.html",
+    "title": "Challenging questions",
+    "section": "",
+    "text": "ES 112\n  IIT Gandhinagar\n  \n  \n    Home\n    Lectures\n    Assessment\n    Challenges\n    Slack\n  \n\n\n\n\n\n\nProblems for practice beyond the worksheets and assignments.\n\nSum of primes: Project Euler, problem 10"
+  }
+]

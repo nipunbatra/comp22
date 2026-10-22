@@ -1,0 +1,31 @@
+# GitHub Pages serves the master branch as it is, so the site renders in place:
+# each page's .html sits next to its .qmd. Run `quarto render` and commit the result.
+project:
+  type: website
+  output-dir: .
+  render:
+    - index.qmd
+    - schedule.qmd
+    - assessment.qmd
+    - lectures/index.qmd
+    - challenge.qmd
+    - challenge/index.qmd
+
+website:
+  title: "ES 112 · Introduction to Computing 2022"
+  favicon: favicon.svg
+  description: "Introduction to Computing at IIT Gandhinagar, November–December 2022"
+  site-url: https://nipunbatra.github.io/comp22/
+  search: false
+
+format:
+  html:
+    theme: [cosmo, styles.scss, course.scss]
+    toc: false
+    page-layout: article
+    anchor-sections: false
+    body-classes: dl
+    link-external-newwindow: true
+    include-in-header: course-theme.html
+    include-before-body: rail.html
+    include-after-body: course-tools.html
