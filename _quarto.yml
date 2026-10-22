@@ -15,7 +15,6 @@ website:
   title: "ES 112 · Introduction to Computing 2022"
   favicon: favicon.svg
   description: "Introduction to Computing at IIT Gandhinagar, November–December 2022"
-  site-url: https://nipunbatra.github.io/comp22/
   search: false
 
 format:
